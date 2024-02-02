@@ -30,9 +30,9 @@ func main(){
 	} else if(option == "-l"){
 	 fmt.Println(len(strings.Split(string(content), "\n")));
 	} else if(option == "-w"){
-
+		fmt.Println(len(strings.Split(string(content), " ")));
 	} else if(option == "-m"){
-
+		fmt.Println(len(string(content)));
 	} else if(option == "-L"){
 	 var lines = strings.Split(string(content), "\n")
      max:= 0
